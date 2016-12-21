@@ -14,7 +14,6 @@ $("#goals-button").click(function(){
     $('#goals-content').show();
 });
 
-
 /*
 When someone clicks the info button we should hide all-content 
 and then show only info-content
@@ -22,4 +21,13 @@ and then show only info-content
 $("#info-button").click(function(){
     $('.all-content').hide();
     $('#info-content').show();
+});
+
+$("#projects-button").click(function(){
+    $('.all-content').hide();
+    $('#project-content').show();
+});
+
+$("#theme-button").click(function(){
+   $("body").css("background-color","black");
 });

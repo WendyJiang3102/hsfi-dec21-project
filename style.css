@@ -1,6 +1,7 @@
 body {
     margin: 20px;
     font-size: 150%;
+    font-family: 'Lobster Two', cursive;
 }
 
 .all-content {
@@ -9,4 +10,19 @@ body {
 
 .btn {
     margin: 5px;
+}
+#sushi{
+    height:100px;
+    width:200px;
+}
+#padthai{
+    height:150px;
+    width:200px;
+}
+#noodle{
+    height:150px;
+    width:200px;
+}
+#food{
+    font-size:20px;
 }
