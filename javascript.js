@@ -30,4 +30,22 @@ $("#projects-button").click(function(){
 
 $("#theme-button").click(function(){
    $("body").css("background-color","black");
+   $('.all-content').css("color","white");
+   $('#site-title').css("color","white");
+});
+
+$("#do-not-press-button").click(function(){
+    alert("I TOLD YOU NOT TO PRESS ME!");
+});
+
+$('#takeover-button').click(function(){
+    $('.all-content').hide();
+    $('#takeover-content').show();
+});
+
+$('#takeover-form-button').click(function(){
+  $('#site-title').html("Your site now belongs to:"+$("#takeover-input").val());
+  $('#takeover-input').val("");
+  $('#site-title').css("background-color","#8C001A")
+  $('#site-title').css("color","white")
 });
